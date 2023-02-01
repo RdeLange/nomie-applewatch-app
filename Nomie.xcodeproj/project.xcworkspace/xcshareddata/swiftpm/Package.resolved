@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftui-apple-watch-decimal-pad",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ApplebaumIan/SwiftUI-Apple-Watch-Decimal-Pad.git",
+      "state" : {
+        "revision" : "8fd9fa0f5224c07445c19149ca017eb1a492f9fc",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A214F39265FF2C200E71FC3 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A214F38265FF2C200E71FC3 /* CreditsView.swift */; };
+		3A214F3C265FF43D00E71FC3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A214F3B265FF43D00E71FC3 /* HeaderView.swift */; };
+		3A2F34A7265A8ABC004D43E9 /* Nomie WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A2F34A6265A8ABC004D43E9 /* Nomie WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A2F34AC265A8ABD004D43E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F34AB265A8ABD004D43E9 /* Assets.xcassets */; };
+		3A2F34B3265A8ABD004D43E9 /* Nomie WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3A2F34B2265A8ABD004D43E9 /* Nomie WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A2F34B8265A8ABD004D43E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F34B7265A8ABD004D43E9 /* ContentView.swift */; };
+		3A2F34BA265A8ABD004D43E9 /* S4EApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F34B9265A8ABD004D43E9 /* S4EApp.swift */; };
+		3A2F34BC265A8ABD004D43E9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F34BB265A8ABD004D43E9 /* ComplicationController.swift */; };
+		3A2F34BE265A8ABD004D43E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F34BD265A8ABD004D43E9 /* Assets.xcassets */; };
+		3A2F34C1265A8ABE004D43E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2F34C0265A8ABE004D43E9 /* Preview Assets.xcassets */; };
+		3A31908726611142003D106F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31908626611142003D106F /* SettingsView.swift */; };
+		3A3CAE99265ECC9D008B3935 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CAE98265ECC9D008B3935 /* DetailView.swift */; };
+		3A8A3026265C10AE000206F4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A3025265C10AE000206F4 /* Note.swift */; };
+		CE01696428EB5DE900895EF6 /* TrackableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01696328EB5DE900895EF6 /* TrackableButton.swift */; };
+		CE01696828EB742400895EF6 /* RangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01696728EB742400895EF6 /* RangeView.swift */; };
+		CE01696A28EB7BC900895EF6 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01696928EB7BC900895EF6 /* InputView.swift */; };
+		CE01696C28EB80B800895EF6 /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01696B28EB80B800895EF6 /* Keypad.swift */; };
+		CE01696E28EB88B300895EF6 /* ValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01696D28EB88B300895EF6 /* ValueView.swift */; };
+		CE07C7A2290F177700FABB65 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07C7A1290F177700FABB65 /* NoteView.swift */; };
+		CE07C7A4290F1BC000FABB65 /* NoteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07C7A3290F1BC000FABB65 /* NoteSlider.swift */; };
+		CE07C7A6290F2ADD00FABB65 /* NoteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07C7A5290F2ADD00FABB65 /* NoteValue.swift */; };
+		CE07C7A9290F2C4C00FABB65 /* SwiftUI Apple Watch Decimal Pad in Frameworks */ = {isa = PBXBuildFile; productRef = CE07C7A8290F2C4C00FABB65 /* SwiftUI Apple Watch Decimal Pad */; };
+		CE07C7AB290F339800FABB65 /* NoteTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07C7AA290F339800FABB65 /* NoteTimer.swift */; };
+		CE3815E42914627400101D42 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3815E32914627400101D42 /* PickerView.swift */; };
+		CE7C73BB291320A700A4BAF6 /* PickerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C73BA291320A700A4BAF6 /* PickerToggle.swift */; };
+		CE875AEB28F6044900CE3933 /* RegisterModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE875AEA28F6044900CE3933 /* RegisterModal.swift */; };
+		CE875AED28F60A4D00CE3933 /* UnRegisterModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE875AEC28F60A4D00CE3933 /* UnRegisterModal.swift */; };
+		CE875AEF28F6194900CE3933 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE875AEE28F6194900CE3933 /* Tag.swift */; };
+		CE875AF128F61A5400CE3933 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE875AF028F61A5400CE3933 /* PersonView.swift */; };
+		CE98F46228EB28130035EE29 /* TrackableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98F46128EB28130035EE29 /* TrackableModel.swift */; };
+		CE98F46428EB28790035EE29 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98F46328EB28790035EE29 /* ModelData.swift */; };
+		CE98F46728EB28B30035EE29 /* s4edata.json in Resources */ = {isa = PBXBuildFile; fileRef = CE98F46628EB28B30035EE29 /* s4edata.json */; };
+		CE9B389828ECB43800EC96CB /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B389728ECB43700EC96CB /* TimerView.swift */; };
+		CE9B389A28ECC12F00EC96CB /* TimerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B389928ECC12F00EC96CB /* TimerPicker.swift */; };
+		CEE44FD628F4B94600062175 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44FD528F4B94600062175 /* LocationManager.swift */; };
+		CEE44FD828F4C20F00062175 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44FD728F4C20F00062175 /* LogModel.swift */; };
+		CEE7F12028F0ABB600BB0081 /* apiconfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7F11F28F0ABB600BB0081 /* apiconfigModel.swift */; };
+		CEE7F12228F0AC4700BB0081 /* apiconfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7F12128F0AC4700BB0081 /* apiconfigViewModel.swift */; };
+		CEF8961B28F8BAFB0079680E /* ConnectErrorModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8961A28F8BAFB0079680E /* ConnectErrorModal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2F34A8265A8ABC004D43E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2F349C265A8ABC004D43E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2F34A5265A8ABC004D43E9;
+			remoteInfo = "Notes WatchKit App";
+		};
+		3A2F34B4265A8ABD004D43E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2F349C265A8ABC004D43E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2F34B1265A8ABD004D43E9;
+			remoteInfo = "Notes WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A2F34C8265A8ABE004D43E9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3A2F34B3265A8ABD004D43E9 /* Nomie WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2F34CC265A8ABE004D43E9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3A2F34A7265A8ABC004D43E9 /* Nomie WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A214F38265FF2C200E71FC3 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		3A214F3B265FF43D00E71FC3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3A2F34A2265A8ABC004D43E9 /* Nomie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2F34A6265A8ABC004D43E9 /* Nomie WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomie WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2F34AB265A8ABD004D43E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2F34AD265A8ABD004D43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2F34B2265A8ABD004D43E9 /* Nomie WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nomie WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2F34B7265A8ABD004D43E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A2F34B9265A8ABD004D43E9 /* S4EApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S4EApp.swift; sourceTree = "<group>"; };
+		3A2F34BB265A8ABD004D43E9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3A2F34BD265A8ABD004D43E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2F34C0265A8ABE004D43E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A2F34C2265A8ABE004D43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A31908626611142003D106F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3A3CAE98265ECC9D008B3935 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3A8A3025265C10AE000206F4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		CE01696328EB5DE900895EF6 /* TrackableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableButton.swift; sourceTree = "<group>"; };
+		CE01696728EB742400895EF6 /* RangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeView.swift; sourceTree = "<group>"; };
+		CE01696928EB7BC900895EF6 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		CE01696B28EB80B800895EF6 /* Keypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		CE01696D28EB88B300895EF6 /* ValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueView.swift; sourceTree = "<group>"; };
+		CE07C7A1290F177700FABB65 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		CE07C7A3290F1BC000FABB65 /* NoteSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSlider.swift; sourceTree = "<group>"; };
+		CE07C7A5290F2ADD00FABB65 /* NoteValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteValue.swift; sourceTree = "<group>"; };
+		CE07C7AA290F339800FABB65 /* NoteTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTimer.swift; sourceTree = "<group>"; };
+		CE3815E32914627400101D42 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		CE7C73BA291320A700A4BAF6 /* PickerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerToggle.swift; sourceTree = "<group>"; };
+		CE875AEA28F6044900CE3933 /* RegisterModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModal.swift; sourceTree = "<group>"; };
+		CE875AEC28F60A4D00CE3933 /* UnRegisterModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnRegisterModal.swift; sourceTree = "<group>"; };
+		CE875AEE28F6194900CE3933 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		CE875AF028F61A5400CE3933 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		CE98F46128EB28130035EE29 /* TrackableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableModel.swift; sourceTree = "<group>"; };
+		CE98F46328EB28790035EE29 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CE98F46628EB28B30035EE29 /* s4edata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = s4edata.json; sourceTree = "<group>"; };
+		CE9B389728ECB43700EC96CB /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		CE9B389928ECC12F00EC96CB /* TimerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPicker.swift; sourceTree = "<group>"; };
+		CEE44FD528F4B94600062175 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CEE44FD728F4C20F00062175 /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		CEE7F11F28F0ABB600BB0081 /* apiconfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiconfigModel.swift; sourceTree = "<group>"; };
+		CEE7F12128F0AC4700BB0081 /* apiconfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiconfigViewModel.swift; sourceTree = "<group>"; };
+		CEF8961A28F8BAFB0079680E /* ConnectErrorModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectErrorModal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2F34AF265A8ABD004D43E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE07C7A9290F2C4C00FABB65 /* SwiftUI Apple Watch Decimal Pad in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A214F3A265FF42600E71FC3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CE01696328EB5DE900895EF6 /* TrackableButton.swift */,
+				3A214F3B265FF43D00E71FC3 /* HeaderView.swift */,
+				CE01696B28EB80B800895EF6 /* Keypad.swift */,
+				CE9B389928ECC12F00EC96CB /* TimerPicker.swift */,
+				CEE44FD528F4B94600062175 /* LocationManager.swift */,
+				CE875AEE28F6194900CE3933 /* Tag.swift */,
+				CE07C7A3290F1BC000FABB65 /* NoteSlider.swift */,
+				CE07C7A5290F2ADD00FABB65 /* NoteValue.swift */,
+				CE07C7AA290F339800FABB65 /* NoteTimer.swift */,
+				CE7C73BA291320A700A4BAF6 /* PickerToggle.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3A2F349B265A8ABC004D43E9 = {
+			isa = PBXGroup;
+			children = (
+				3A2F34AA265A8ABC004D43E9 /* Notes WatchKit App */,
+				3A2F34B6265A8ABD004D43E9 /* Notes WatchKit Extension */,
+				3A2F34A3265A8ABC004D43E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2F34A3265A8ABC004D43E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F34A2265A8ABC004D43E9 /* Nomie.app */,
+				3A2F34A6265A8ABC004D43E9 /* Nomie WatchKit App.app */,
+				3A2F34B2265A8ABD004D43E9 /* Nomie WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2F34AA265A8ABC004D43E9 /* Notes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F34AB265A8ABD004D43E9 /* Assets.xcassets */,
+				3A2F34AD265A8ABD004D43E9 /* Info.plist */,
+			);
+			path = "Notes WatchKit App";
+			sourceTree = "<group>";
+		};
+		3A2F34B6265A8ABD004D43E9 /* Notes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE98F46528EB289C0035EE29 /* Json */,
+				3A8A3024265C100C000206F4 /* Model */,
+				3A8A3023265C0FFE000206F4 /* View */,
+				3A214F3A265FF42600E71FC3 /* Component */,
+				3A2F34B9265A8ABD004D43E9 /* S4EApp.swift */,
+				3A2F34BB265A8ABD004D43E9 /* ComplicationController.swift */,
+				3A2F34BD265A8ABD004D43E9 /* Assets.xcassets */,
+				3A2F34C2265A8ABE004D43E9 /* Info.plist */,
+				3A2F34BF265A8ABE004D43E9 /* Preview Content */,
+			);
+			path = "Notes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3A2F34BF265A8ABE004D43E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F34C0265A8ABE004D43E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A8A3023265C0FFE000206F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F34B7265A8ABD004D43E9 /* ContentView.swift */,
+				3A3CAE98265ECC9D008B3935 /* DetailView.swift */,
+				3A214F38265FF2C200E71FC3 /* CreditsView.swift */,
+				3A31908626611142003D106F /* SettingsView.swift */,
+				CE01696728EB742400895EF6 /* RangeView.swift */,
+				CE01696928EB7BC900895EF6 /* InputView.swift */,
+				CE01696D28EB88B300895EF6 /* ValueView.swift */,
+				CE9B389728ECB43700EC96CB /* TimerView.swift */,
+				CE875AEA28F6044900CE3933 /* RegisterModal.swift */,
+				CE875AEC28F60A4D00CE3933 /* UnRegisterModal.swift */,
+				CE875AF028F61A5400CE3933 /* PersonView.swift */,
+				CEF8961A28F8BAFB0079680E /* ConnectErrorModal.swift */,
+				CE07C7A1290F177700FABB65 /* NoteView.swift */,
+				CE3815E32914627400101D42 /* PickerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A8A3024265C100C000206F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A8A3025265C10AE000206F4 /* Note.swift */,
+				CE98F46128EB28130035EE29 /* TrackableModel.swift */,
+				CE98F46328EB28790035EE29 /* ModelData.swift */,
+				CEE7F11F28F0ABB600BB0081 /* apiconfigModel.swift */,
+				CEE7F12128F0AC4700BB0081 /* apiconfigViewModel.swift */,
+				CEE44FD728F4C20F00062175 /* LogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE98F46528EB289C0035EE29 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CE98F46628EB28B30035EE29 /* s4edata.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2F34A1265A8ABC004D43E9 /* Nomie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2F34CD265A8ABE004D43E9 /* Build configuration list for PBXNativeTarget "Nomie" */;
+			buildPhases = (
+				3A2F34A0265A8ABC004D43E9 /* Resources */,
+				3A2F34CC265A8ABE004D43E9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2F34A9265A8ABC004D43E9 /* PBXTargetDependency */,
+			);
+			name = Nomie;
+			productName = Notes;
+			productReference = 3A2F34A2265A8ABC004D43E9 /* Nomie.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3A2F34A5265A8ABC004D43E9 /* Nomie WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2F34C9265A8ABE004D43E9 /* Build configuration list for PBXNativeTarget "Nomie WatchKit App" */;
+			buildPhases = (
+				3A2F34A4265A8ABC004D43E9 /* Resources */,
+				3A2F34C8265A8ABE004D43E9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2F34B5265A8ABD004D43E9 /* PBXTargetDependency */,
+			);
+			name = "Nomie WatchKit App";
+			productName = "Notes WatchKit App";
+			productReference = 3A2F34A6265A8ABC004D43E9 /* Nomie WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3A2F34B1265A8ABD004D43E9 /* Nomie WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2F34C5265A8ABE004D43E9 /* Build configuration list for PBXNativeTarget "Nomie WatchKit Extension" */;
+			buildPhases = (
+				3A2F34AE265A8ABD004D43E9 /* Sources */,
+				3A2F34AF265A8ABD004D43E9 /* Frameworks */,
+				3A2F34B0265A8ABD004D43E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nomie WatchKit Extension";
+			packageProductDependencies = (
+				CE07C7A8290F2C4C00FABB65 /* SwiftUI Apple Watch Decimal Pad */,
+			);
+			productName = "Notes WatchKit Extension";
+			productReference = 3A2F34B2265A8ABD004D43E9 /* Nomie WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2F349C265A8ABC004D43E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3A2F34A1265A8ABC004D43E9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3A2F34A5265A8ABC004D43E9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3A2F34B1265A8ABD004D43E9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 3A2F349F265A8ABC004D43E9 /* Build configuration list for PBXProject "Nomie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2F349B265A8ABC004D43E9;
+			packageReferences = (
+				CE07C7A7290F2C4C00FABB65 /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */,
+			);
+			productRefGroup = 3A2F34A3265A8ABC004D43E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2F34A1265A8ABC004D43E9 /* Nomie */,
+				3A2F34A5265A8ABC004D43E9 /* Nomie WatchKit App */,
+				3A2F34B1265A8ABD004D43E9 /* Nomie WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2F34A0265A8ABC004D43E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2F34A4265A8ABC004D43E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2F34AC265A8ABD004D43E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2F34B0265A8ABD004D43E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2F34C1265A8ABE004D43E9 /* Preview Assets.xcassets in Resources */,
+				3A2F34BE265A8ABD004D43E9 /* Assets.xcassets in Resources */,
+				CE98F46728EB28B30035EE29 /* s4edata.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2F34AE265A8ABD004D43E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE875AF128F61A5400CE3933 /* PersonView.swift in Sources */,
+				CE875AEF28F6194900CE3933 /* Tag.swift in Sources */,
+				CE01696A28EB7BC900895EF6 /* InputView.swift in Sources */,
+				3A2F34B8265A8ABD004D43E9 /* ContentView.swift in Sources */,
+				CE3815E42914627400101D42 /* PickerView.swift in Sources */,
+				3A31908726611142003D106F /* SettingsView.swift in Sources */,
+				CE07C7A6290F2ADD00FABB65 /* NoteValue.swift in Sources */,
+				CE7C73BB291320A700A4BAF6 /* PickerToggle.swift in Sources */,
+				CE98F46228EB28130035EE29 /* TrackableModel.swift in Sources */,
+				CE07C7AB290F339800FABB65 /* NoteTimer.swift in Sources */,
+				3A2F34BA265A8ABD004D43E9 /* S4EApp.swift in Sources */,
+				3A2F34BC265A8ABD004D43E9 /* ComplicationController.swift in Sources */,
+				CE875AEB28F6044900CE3933 /* RegisterModal.swift in Sources */,
+				CEE7F12028F0ABB600BB0081 /* apiconfigModel.swift in Sources */,
+				CEE44FD828F4C20F00062175 /* LogModel.swift in Sources */,
+				CE9B389828ECB43800EC96CB /* TimerView.swift in Sources */,
+				CE01696E28EB88B300895EF6 /* ValueView.swift in Sources */,
+				CE01696428EB5DE900895EF6 /* TrackableButton.swift in Sources */,
+				CE875AED28F60A4D00CE3933 /* UnRegisterModal.swift in Sources */,
+				CE9B389A28ECC12F00EC96CB /* TimerPicker.swift in Sources */,
+				3A214F39265FF2C200E71FC3 /* CreditsView.swift in Sources */,
+				CE07C7A2290F177700FABB65 /* NoteView.swift in Sources */,
+				CEE44FD628F4B94600062175 /* LocationManager.swift in Sources */,
+				3A3CAE99265ECC9D008B3935 /* DetailView.swift in Sources */,
+				CE98F46428EB28790035EE29 /* ModelData.swift in Sources */,
+				3A8A3026265C10AE000206F4 /* Note.swift in Sources */,
+				CE01696C28EB80B800895EF6 /* Keypad.swift in Sources */,
+				CEE7F12228F0AC4700BB0081 /* apiconfigViewModel.swift in Sources */,
+				CE07C7A4290F1BC000FABB65 /* NoteSlider.swift in Sources */,
+				CEF8961B28F8BAFB0079680E /* ConnectErrorModal.swift in Sources */,
+				CE01696828EB742400895EF6 /* RangeView.swift in Sources */,
+				3A214F3C265FF43D00E71FC3 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2F34A9265A8ABC004D43E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2F34A5265A8ABC004D43E9 /* Nomie WatchKit App */;
+			targetProxy = 3A2F34A8265A8ABC004D43E9 /* PBXContainerItemProxy */;
+		};
+		3A2F34B5265A8ABD004D43E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2F34B1265A8ABD004D43E9 /* Nomie WatchKit Extension */;
+			targetProxy = 3A2F34B4265A8ABD004D43E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A2F34C3265A8ABE004D43E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2F34C4265A8ABE004D43E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2F34C6265A8ABE004D43E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Notes WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TYL7F8B6LZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Notes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		3A2F34C7265A8ABE004D43E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Notes WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TYL7F8B6LZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Notes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		3A2F34CA265A8ABE004D43E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYL7F8B6LZ;
+				IBSC_MODULE = Notes_WatchKit_Extension;
+				INFOPLIST_FILE = "Notes WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		3A2F34CB265A8ABE004D43E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYL7F8B6LZ;
+				IBSC_MODULE = Notes_WatchKit_Extension;
+				INFOPLIST_FILE = "Notes WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		3A2F34CE265A8ABE004D43E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYL7F8B6LZ;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A2F34CF265A8ABE004D43E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TYL7F8B6LZ;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2F349F265A8ABC004D43E9 /* Build configuration list for PBXProject "Nomie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2F34C3265A8ABE004D43E9 /* Debug */,
+				3A2F34C4265A8ABE004D43E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2F34C5265A8ABE004D43E9 /* Build configuration list for PBXNativeTarget "Nomie WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2F34C6265A8ABE004D43E9 /* Debug */,
+				3A2F34C7265A8ABE004D43E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2F34C9265A8ABE004D43E9 /* Build configuration list for PBXNativeTarget "Nomie WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2F34CA265A8ABE004D43E9 /* Debug */,
+				3A2F34CB265A8ABE004D43E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2F34CD265A8ABE004D43E9 /* Build configuration list for PBXNativeTarget "Nomie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2F34CE265A8ABE004D43E9 /* Debug */,
+				3A2F34CF265A8ABE004D43E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE07C7A7290F2C4C00FABB65 /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ApplebaumIan/SwiftUI-Apple-Watch-Decimal-Pad.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE07C7A8290F2C4C00FABB65 /* SwiftUI Apple Watch Decimal Pad */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE07C7A7290F2C4C00FABB65 /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */;
+			productName = "SwiftUI Apple Watch Decimal Pad";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3A2F349C265A8ABC004D43E9 /* Project object */;
+}
