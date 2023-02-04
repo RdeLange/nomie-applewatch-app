@@ -75,6 +75,8 @@ struct ValueView: View {
             .padding(-2.0)
             .onAppear {
                 value = trackable.defaultvalue
+                if (value == "undefined") {
+                    value=""}
             }
           HStack {
             Capsule()
