@@ -4,7 +4,7 @@ The Nomie Apple Watch App is an application which runs on your Apple Watch and w
 
 ## Before you begin....
 
-Please be aware that this app is very experimental. This is my first (and only) Apple Watch app and the implementation is definately not the most elegant.
+Please be aware that this app is very experimental. This is my first (and only) Apple Watch app and the implementation is definitely not the most elegant.
 Anyway...feel free to contribute/enhance the code if you wish.
 
 The Nomie Apple Watch App will only work in conjunction with the following Plugins and software:
