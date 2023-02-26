@@ -49,9 +49,9 @@ Please make sure to configure the plugin as per insyructions. The only part you 
 
 ## The Nomie Apple Watch app
 
-You can install the Nomie Apple Watch app via the Apple Testflight beta testing program via the following link:
+You can install the Nomie Apple Watch app via the Apple Testflight beta testing program via the following link on your IOS device:
 
-LINK TO BE INCLUDED
+[https://testflight.apple.com/join/RebxBuIO](https://testflight.apple.com/join/RebxBuIO)
 
 The app is a stand alone Aple Watch app and does not come with an related Iphone/Ipad app.
 
