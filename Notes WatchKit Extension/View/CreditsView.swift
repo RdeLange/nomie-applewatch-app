@@ -32,7 +32,7 @@ struct CreditsView: View {
         .foregroundColor(.secondary)
         .fontWeight(.light)
         
-        Text("v1.0b9")
+        Text("v1.0b10")
           .font(.footnote)
           .foregroundColor(.secondary)
           .fontWeight(.light)
