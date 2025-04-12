@@ -32,8 +32,8 @@ struct RegisterModal: View {
         self.apiconfig = apiconfig
             apiKey = apiconfig[0].apikey
             privateKey = apiconfig[0].privatekey
-            //apiKey = "wDhycMSgU8cNUzEPkLnU5lxzuNtWgx4X"
-            //privateKey = "-----BEGIN PRIVATE KEY----- dbrEW2eSE9N4nyNvxeIrUJ75J7dFRtFeVtwLV6C08ZhYkR98eUdrxhdiMpLjXlAyY5sLj2qwmTPHmXiWsauyUHfUF0BrjEbq2dLR3tqGw7c9Wn2pHkvwxxOnSh881Kurrtk4jloZXJnwI3bq4G1TZqDryhORiRQcRoBAqd3ImkaAuwapbjQd9gz8SB2KIt8KCNcGzuAGh9OuMd0qzWOl7eCg5ZhXSQ6JfFtJwvdUZzJYRki4GdkwWeCVDF3sD2lYYd3ppwuq8FYd1ogVIHmYHMuCDcrF3XJUp5JqJjnVZrjiULkZItC6v5HsFnIN2me3QTkubQEdQM7Qlk925k3fMIQZyc5i135LrMVOdAp9vAiirj0UftYd00c6hoypZ3Hp2iwSxXv49uxnblWKfLJQGcOCYwUOHYdAPdhS66LD9xw8RYyFea8jwvKiXxRvOuXQYFJZlO -----END PRIVATE KEY-----"
+            //apiKey = "t81NGkS7Zl1rVcS36KVUhjBGGqD5ynKC"
+            //privateKey = "-----BEGIN PRIVATE KEY----- MYvyY2Ql9ZvfejuqB0Q2Wgnc28WtQSkVRxYhUqSvFsBGh6MSFKbZa1mlKvXVtStsFppLMUSJG7gtjMVm9ESU1yobU7bedyGC20DR58Xja8f8ZzMpAGYOQHy472DwxczJr1lWQOLBYfJ5pPv06eaiRvMAtm74h2dbnzqZXWZzDOldihjyAOAI4GtJnXcWhVdTsf38svpZ5LzdbgHV9HLsUGL7fCo9pb6pDKjN24di6xS9u8kWinyZ9NabmQzXK5ARRI3hkVlAxLFkElLFTOH5CTSfNRVqtRKVLhNQ72V3BoEYcGJnLqHeVKwmVg8vcgS3K1J1eeViO5FqiyRhGq5L35fvLbfsoSMHkBFGemTEnIVD5WPL2vdLGWWVtu1l72QR3Xy0OeABo8ztRoebMSSszCrGMJ2aJ1DZIoFBDyURkxEB21PrRN4t4W8qiqsZXWchKOkjBo -----END PRIVATE KEY-----"
             //apiKey = ""
             //privateKey = ""
             if (apiKey == ""){

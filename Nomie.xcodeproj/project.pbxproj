@@ -41,6 +41,7 @@
 		CE98F46728EB28B30035EE29 /* s4edata.json in Resources */ = {isa = PBXBuildFile; fileRef = CE98F46628EB28B30035EE29 /* s4edata.json */; };
 		CE9B389828ECB43800EC96CB /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B389728ECB43700EC96CB /* TimerView.swift */; };
 		CE9B389A28ECC12F00EC96CB /* TimerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B389928ECC12F00EC96CB /* TimerPicker.swift */; };
+		CEDB05702DAAAF3200AB7914 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB056F2DAAAF3200AB7914 /* HabitView.swift */; };
 		CEE44FD628F4B94600062175 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44FD528F4B94600062175 /* LocationManager.swift */; };
 		CEE44FD828F4C20F00062175 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44FD728F4C20F00062175 /* LogModel.swift */; };
 		CEE7F12028F0ABB600BB0081 /* apiconfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7F11F28F0ABB600BB0081 /* apiconfigModel.swift */; };
@@ -127,6 +128,7 @@
 		CE98F46628EB28B30035EE29 /* s4edata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = s4edata.json; sourceTree = "<group>"; };
 		CE9B389728ECB43700EC96CB /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		CE9B389928ECC12F00EC96CB /* TimerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPicker.swift; sourceTree = "<group>"; };
+		CEDB056F2DAAAF3200AB7914 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 		CEE44FD528F4B94600062175 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		CEE44FD728F4C20F00062175 /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
 		CEE7F11F28F0ABB600BB0081 /* apiconfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiconfigModel.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				3A214F38265FF2C200E71FC3 /* CreditsView.swift */,
 				3A31908626611142003D106F /* SettingsView.swift */,
 				CE01696728EB742400895EF6 /* RangeView.swift */,
+				CEDB056F2DAAAF3200AB7914 /* HabitView.swift */,
 				CE01696928EB7BC900895EF6 /* InputView.swift */,
 				CE01696D28EB88B300895EF6 /* ValueView.swift */,
 				CE9B389728ECB43700EC96CB /* TimerView.swift */,
@@ -409,6 +412,7 @@
 				CE01696E28EB88B300895EF6 /* ValueView.swift in Sources */,
 				CE01696428EB5DE900895EF6 /* TrackableButton.swift in Sources */,
 				CE875AED28F60A4D00CE3933 /* UnRegisterModal.swift in Sources */,
+				CEDB05702DAAAF3200AB7914 /* HabitView.swift in Sources */,
 				CE9B389A28ECC12F00EC96CB /* TimerPicker.swift in Sources */,
 				3A214F39265FF2C200E71FC3 /* CreditsView.swift in Sources */,
 				CE07C7A2290F177700FABB65 /* NoteView.swift in Sources */,
@@ -651,7 +655,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = TYL7F8B6LZ;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e;
@@ -664,7 +668,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = TYL7F8B6LZ;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rdl.s4e;

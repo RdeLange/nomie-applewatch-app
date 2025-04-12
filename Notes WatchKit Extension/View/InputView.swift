@@ -70,7 +70,9 @@ struct InputView: View {
                 else if trackable.type == "picker" {
                     PickerView(trackable:trackable,key:key,trackablearray:trackablearray)
       }
-          
+				else if trackable.type == "habit" {
+					HabitView(trackable:trackable,key:key)
+}
                 else if trackable.type == "tick"  {
                     Text("Logging.....").foregroundColor(.accentColor)
             }

@@ -10,7 +10,7 @@ import CoreLocation
 
 
 
-struct RangeView: View {
+struct HabitView: View {
   // MARK: - PROPERTY
     @Environment(\.presentationMode) var presentation
   @State private var value: Float = 1
@@ -80,35 +80,44 @@ struct RangeView: View {
         
       // ACTUAL LINE COUNT
       //Text("Value: \(value)".uppercased())
-        Text("Value: \(String(format: "%.0f", value))".uppercased())
+        Text("Habit Achieved?".uppercased())
         .fontWeight(.bold)
         //String(format: "%.01f", value)
-      // SLIDER
-      Slider(value: Binding(get: {
-        self.value
-      }, set: {(newValue) in
-        self.value = newValue
-        self.update()
-      }), in: (Float(trackable.min) ?? 1)!...(Float(trackable.max) ?? 1)!, step: 1)
-      .frame(height: 30.0)
-        .accentColor(.accentColor)
+      
       // CANCEL/SAVE BUTTON
-        HStack(){
-            Button(action: {
-                    self.didTap = true
-                Task {await s4elog()}
-                }) {
-
-                Text(didTap ? "Logging.." : "Save")
-                    
-                }
-                .buttonStyle(PlainButtonStyle())
-                .padding(.horizontal, 2.0)
-                .padding(.vertical, 1.0)
-                .frame(width: 100, height: 25.0)
-                    .background(didTap ? Color.blue .cornerRadius( 5.0) : Color.accentColor .cornerRadius( 5.0))
-        }
-        .padding(.top, 6.0) //: HSTACK
+		HStack(){
+			VStack(){
+				Button(action: {
+					self.didTap = true
+					Task {value = 1; await s4elog()}
+				}) {
+					
+					Text("✔️")
+					
+				}
+				.buttonStyle(PlainButtonStyle())
+				.padding(.horizontal, 2.0)
+				.padding(.vertical, 1.0)
+				.frame(width: 50, height: 25.0)
+				.background(didTap ? Color.green .cornerRadius( 5.0) : Color.green .cornerRadius( 5.0))
+			}
+			VStack(){
+				Button(action: {
+					self.didTap = true
+					Task {value = -1; await s4elog()}
+				}) {
+					
+					Text("✖️")
+					
+				}
+				.buttonStyle(PlainButtonStyle())
+				.padding(.horizontal, 2.0)
+				.padding(.vertical, 1.0)
+				.frame(width: 50, height: 25.0)
+				.background(didTap ? Color.red .cornerRadius( 5.0) : Color.red .cornerRadius( 5.0))
+			}
+		}
+		.padding(.top, 6.0) //: HSTACK
     } //: VSTACK
   }
 }

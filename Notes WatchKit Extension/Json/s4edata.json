@@ -13,6 +13,19 @@
             "defaultvalue": "5"
         },
         {
+            "id": "1010",
+            "tag": "habit",
+            "type": "habit",
+            "color": "#ffffff",
+            "emoji": "🎁",
+            "label": "Habit",
+            "include": "",
+            "uom": "",
+            "max": "1",
+            "min": "-1",
+            "defaultvalue": "1"
+        },
+        {
             "id": "1002",
             "tag": "mood",
             "type": "value",
